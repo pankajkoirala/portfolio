@@ -854,6 +854,15 @@ section,
   background-color: var(--accent-color);
 }
 
+.Projects .Projects-content .Projects-info a {
+  font-size: 18px;
+  /* padding: 5px 10px; */
+  font-weight: 400;
+  color: #ffffff;
+  background-color: transparent;
+
+  display: inline-block;
+}
 .Projects .Projects-content .Projects-info p {
   position: absolute;
   bottom: 10px;
@@ -864,6 +873,7 @@ section,
   font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
+  padding: 0px 8px;
 }
 
 .Projects .Projects-content .Projects-info .preview-link,
